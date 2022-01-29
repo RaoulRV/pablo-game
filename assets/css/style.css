@@ -38,7 +38,7 @@ body{
     top: 500px;
     left: 100px;
     background-image: url('../images/dog1.png');
-    background-size: 50% 95%;
+    background-size: 50% 87%;
     animation: pablo 0.2s infinite alternate;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -58,6 +58,9 @@ background-image: url('../images/dog1.png');
 
 #obstacle{
     width: 100px;
-    height: 100px;
-    
+    height: 140px;
+    background-image: url('../images/car2.png');
+    background-size: 82% 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
 }
