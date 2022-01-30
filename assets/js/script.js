@@ -2,7 +2,9 @@ document.addEventListener("keydown", event => {
     if(event.key==="ArrowLeft"){moveLeft();}
     if(event.key==="ArrowRight"){moveRight();}
   });
-var pablo=document.getElementById("pablo");
+  var game=document.getElementById("game");
+  var restart=document.getElementById("gover");
+  var pablo=document.getElementById("pablo");
 function moveLeft(){
         let left = parseInt(window.getComputedStyle(pablo).getPropertyValue("left"));
         left -= 100;
@@ -30,18 +32,25 @@ document.getElementById('score').innerText = "SCORE:" + score;
 });
 
 
+
+
 setInterval(function(){
     var pabloLeft = parseInt(window.getComputedStyle(pablo).getPropertyValue("left"));
     var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
     var obstacleTop = parseInt(window.getComputedStyle(obstacle).getPropertyValue("top"));
     if(pabloLeft==obstacleLeft && obstacleTop<500 && obstacleTop>300){
-        alert("Game over. Score: ");
         obstacle.style.animation = "none";
-
-    }
+        pablo.style.animation="none";
+        game.style.animation = "none";
+        restart.style.display= "block"
+        restart.onclick = function(){location.reload();
+            return false;}
+        }
 },50);
 
 
+document.getElementById("right").addEventListener("touchstart", moveRight);
+document.getElementById("left").addEventListener("touchstart", moveLeft);
 
 
 
