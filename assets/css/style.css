@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +7,8 @@
 
 body{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .game {
@@ -65,11 +68,21 @@ background-image: url('../images/dog1.png');
     background-repeat: no-repeat;
     background-position-x: 50%;
     position: relative;
-    animation: drive 1.2s infinite linear;
+    animation: drive 0.8s infinite linear;
 
 }
 @keyframes drive{
     0%{top: -140px};
    
     100%{bottom: 600px};
+}
+
+#score {
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    left: 5px;
+    top: -90px;
+    text-shadow: 1px 1px 1px white;
+    z-index: 100;
+    
 }

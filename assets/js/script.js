@@ -18,7 +18,28 @@ function moveRight(){
             }
         }
 
-      
+var obstacle = document.getElementById("obstacle");
+var score=0;
+obstacle.addEventListener('animationiteration', () => {
+    score++;
+    var random = Math.floor(Math.random() * 3);
+    left = random * 100;
+    obstacle.style.left = left + "px";
+document.getElementById('score').innerText = "SCORE:" + score;
+
+});
+
+
+setInterval(function(){
+    var pabloLeft = parseInt(window.getComputedStyle(pablo).getPropertyValue("left"));
+    var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
+    var obstacleTop = parseInt(window.getComputedStyle(obstacle).getPropertyValue("top"));
+    if(pabloLeft==obstacleLeft && obstacleTop<500 && obstacleTop>300){
+        alert("Game over. Score: ");
+        obstacle.style.animation = "none";
+
+    }
+},50);
 
 
 
@@ -32,5 +53,6 @@ function moveRight(){
 
 
 
-        document.getElementById("right").addEventListener("touchstart", moveRight);
-        document.getElementById("left").addEventListener("touchstart", moveLeft);
+
+
+
