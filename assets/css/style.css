@@ -59,8 +59,17 @@ background-image: url('../images/dog1.png');
 #obstacle{
     width: 100px;
     height: 140px;
+    top: 600px;
     background-image: url('../images/car2.png');
     background-size: 82% 100%;
     background-repeat: no-repeat;
     background-position-x: 50%;
+    position: relative;
+    animation: drive 1.2s infinite linear;
+
+}
+@keyframes drive{
+    0%{top: -140px};
+   
+    100%{bottom: 600px};
 }

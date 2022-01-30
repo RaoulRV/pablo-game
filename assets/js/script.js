@@ -19,3 +19,18 @@ function moveRight(){
         }
 
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+        document.getElementById("right").addEventListener("touchstart", moveRight);
+        document.getElementById("left").addEventListener("touchstart", moveLeft);
