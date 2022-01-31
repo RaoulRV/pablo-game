@@ -124,6 +124,14 @@ background-image: url('../images/dog1.png');
         100% { background-position: 0% 50% }
       }
 
-
+/* making it mobile friendly */
+    #left, #right{
+        width:50%;
+        position: absolute;
+        height: 500px;
+    }
+    #right{
+        left: 50%;
+    }
 
 
