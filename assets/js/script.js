@@ -1,3 +1,5 @@
+document.getElementById("right").addEventListener("touchstart", moveRight);
+document.getElementById("left").addEventListener("touchstart", moveLeft);
 document.addEventListener("keydown", event => {
     if(event.key==="ArrowLeft"){moveLeft();}
     if(event.key==="ArrowRight"){moveRight();}
@@ -49,8 +51,7 @@ setInterval(function(){
 },50);
 
 
-document.getElementById("right").addEventListener("touchstart", moveRight);
-document.getElementById("left").addEventListener("touchstart", moveLeft);
+
 
 
 
