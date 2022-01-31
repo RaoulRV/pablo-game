@@ -68,7 +68,7 @@ background-image: url('../images/dog1.png');
     background-repeat: no-repeat;
     background-position-x: 50%;
     position: relative;
-    animation: drive 0.8s infinite linear;
+    animation: drive 1s infinite linear;
 
 }
 @keyframes drive{
