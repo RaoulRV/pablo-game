@@ -128,7 +128,7 @@ background-image: url('../images/dog1.png');
     #left, #right{
         width:50%;
         position: absolute;
-        height: 500px;
+        height: 600px;
     }
     #right{
         left: 50%;
