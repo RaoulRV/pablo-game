@@ -11,6 +11,7 @@ body{
     justify-content: center;
 }
 
+
 #game {
     width: 300px;
     height: 600px;
@@ -99,9 +100,10 @@ background-image: url('../images/dog1.png');
 }
 
 /*the text animaation part below was taken from codepen and edited by me*/
-#restartbutton{
-    font-size: 13px;
-    cursor: pointer;
+#goverstyle{
+    font-size: 20px;
+    text-align: center;
+    position:relative;
         font-weight: bold;
         text-decoration: none;
         background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#90f3b3), color-stop(#90e9f3), color-stop(#909ff3), color-stop(#cc90f3), color-stop(#f390d1), color-stop(#f39a90), color-stop(#f3e590), to(#b8f390)) repeat scroll 0% 0%/200% 200%;
@@ -113,16 +115,60 @@ background-image: url('../images/dog1.png');
         text-shadow: 1px 1px 1px black
       }
       
-      h2 {
+      h1 {
         -webkit-animation: GradientAnimation 2s ease infinite;
         animation: GradientAnimation 2s ease infinite;
       }
+
       
       @keyframes GradientAnimation {
         0% { background-position: 0% 50% }
         50% { background-position: 100% 50% }
         100% { background-position: 0% 50% }
       }
+
+#restartbutton{
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+#not{
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    position:absolute;
+    font-size: 0.7em;
+    line-height: 45px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    z-index: 100;
+    
+}
+#not a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+#no{
+    font-size: 20px;
+    cursor: pointer;
+    position:relative;
+    font-weight: bold;
+    
+  
+
+}
+#restartbutton h2{
+    text-decoration: none;
+    color: inherit;
+  }
 
 /* making it mobile friendly */
     #left, #right{
@@ -133,5 +179,4 @@ background-image: url('../images/dog1.png');
     #right{
         left: 50%;
     }
-
 

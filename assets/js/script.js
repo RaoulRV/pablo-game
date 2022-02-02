@@ -1,10 +1,17 @@
+
+var score=0;
+var obstacle = document.getElementById("obstacle");
+var game=document.getElementById("game");
+var restart=document.getElementById("gover");
+var pablo=document.getElementById("pablo");
+var not=document.getElementById("not");
+
+
 document.addEventListener("keydown", event => {
     if(event.key==="ArrowLeft"){moveLeft();}
     if(event.key==="ArrowRight"){moveRight();}
   });
-  var game=document.getElementById("game");
-  var restart=document.getElementById("gover");
-  var pablo=document.getElementById("pablo");
+  
 function moveLeft(){
         let left = parseInt(window.getComputedStyle(pablo).getPropertyValue("left"));
         left -= 100;
@@ -20,19 +27,14 @@ function moveRight(){
             }
         }
 
-var obstacle = document.getElementById("obstacle");
-var score=0;
+
+
 obstacle.addEventListener('animationiteration', () => {
     score++;
     var random = Math.floor(Math.random() * 3);
     left = random * 100;
     obstacle.style.left = left + "px";
 document.getElementById('score').innerText = "SCORE:" + score;
-
-});
-
-
-
 
 setInterval(function(){
     var pabloLeft = parseInt(window.getComputedStyle(pablo).getPropertyValue("left"));
@@ -42,11 +44,19 @@ setInterval(function(){
         obstacle.style.animation = "none";
         pablo.style.animation="none";
         game.style.animation = "none";
-        restart.style.display= "block"
+        restart.style.display= "block";
+        not.style.display="block";
         restart.onclick = function(){location.reload();
             return false;}
         }
 },50);
+
+});
+
+
+
+
+
 
 
 
