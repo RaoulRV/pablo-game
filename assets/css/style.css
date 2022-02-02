@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-
+/* this part is for styling the game */
 #game {
     width: 300px;
     height: 600px;
@@ -180,3 +180,230 @@ background-image: url('../images/dog1.png');
         left: 50%;
     }
 
+
+
+
+    /* this part is for styling the homepage */
+
+    #homepage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 650px;
+        border: 4px solid rgb(138, 134, 134);
+        margin: auto;
+        overflow: hidden;
+        background-color: black;
+        z-index: 100;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    #homepage a{
+        font-weight: bold;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#90f3b3), color-stop(#90e9f3), color-stop(#909ff3), color-stop(#cc90f3), color-stop(#f390d1), color-stop(#f39a90), color-stop(#f3e590), to(#b8f390)) repeat scroll 0% 0%/200% 200%;
+        background: rgba(0, 0, 0, 0) linear-gradient(90deg, #90f3b3, #90e9f3, #909ff3, #cc90f3, #f390d1, #f39a90, #f3e590, #b8f390) repeat scroll 0% 0%/200% 200%;
+            background-clip: border-box;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-shadow: 2px 2px 2px rgb(196, 191, 191)
+      }
+      
+      a {
+        -webkit-animation: GradientAnimation 2s ease infinite;
+        animation: GradientAnimation 2s ease infinite;
+      }
+
+      #homepage a:hover{
+          border-bottom: 1px solid rgb(233, 150, 229);
+          padding-bottom: 5px;
+      }
+
+      
+      @keyframes GradientAnimation {
+        0% { background-position: 0% 50% }
+        50% { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+      }
+      
+
+      #homeplay{
+          position: relative;
+          top: 180px;
+      }
+
+      #title{
+         position: absolute;
+         top: 75px;
+         font-size: 34px;
+         padding-left: 4px;
+
+         
+      }
+      #title h1{
+        color: rgb(233, 150, 229);
+
+     }
+
+     #title h3{
+         font-size: 15px;
+         color: white;
+         text-align: center;
+         position: absolute;
+         top: 110px;
+         line-height: 25px;
+         
+     }
+
+     #title p{
+        font-size: 9px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        line-height: 18px;
+
+
+     }
+    
+     /*social media*/
+     
+     
+
+       #social{
+           position: absolute;
+           top: 615px;
+           font-size: 24px;
+       }
+       
+       
+       
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* this background style was taken from codepen */
+
+    @keyframes move {
+        100% {
+            transform: translate3d(0, 0, 1px) rotate(360deg);
+        }
+    }
+    
+    .background {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: #ffffff;
+        overflow: hidden;
+    }
+    
+    .background span {
+        width: 19vmin;
+        height: 19vmin;
+        border-radius: 19vmin;
+        backface-visibility: hidden;
+        position: absolute;
+        animation: move;
+        animation-duration: 16;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .background span:nth-child(0) {
+        color: #bab9bc;
+        top: 71%;
+        left: 17%;
+        animation-duration: 335s;
+        animation-delay: -235s;
+        transform-origin: -23vw -18vh;
+        box-shadow: -38vmin 0 4.848210006851805vmin currentColor;
+    }
+    .background span:nth-child(1) {
+        color: #bab9bc;
+        top: 19%;
+        left: 45%;
+        animation-duration: 218s;
+        animation-delay: -35s;
+        transform-origin: -14vw 16vh;
+        box-shadow: -38vmin 0 5.054605204962992vmin currentColor;
+    }
+    .background span:nth-child(2) {
+        color: #bab9bc;
+        top: 3%;
+        left: 11%;
+        animation-duration: 245s;
+        animation-delay: -143s;
+        transform-origin: 22vw 17vh;
+        box-shadow: 38vmin 0 5.432223032855384vmin currentColor;
+    }
+    .background span:nth-child(3) {
+        color: #bab9bc;
+        top: 9%;
+        left: 7%;
+        animation-duration: 18s;
+        animation-delay: -180s;
+        transform-origin: -5vw -9vh;
+        box-shadow: -38vmin 0 5.246976052899755vmin currentColor;
+    }
+    .background span:nth-child(4) {
+        color: #bab9bc;
+        top: 96%;
+        left: 27%;
+        animation-duration: 133s;
+        animation-delay: -144s;
+        transform-origin: 4vw 4vh;
+        box-shadow: -38vmin 0 4.991901055543122vmin currentColor;
+    }
+    .background span:nth-child(5) {
+        color: #bab9bc;
+        top: 100%;
+        left: 36%;
+        animation-duration: 331s;
+        animation-delay: -103s;
+        transform-origin: -21vw -8vh;
+        box-shadow: -38vmin 0 5.522963823519826vmin currentColor;
+    }
+    .background span:nth-child(6) {
+        color: #bab9bc;
+        top: 40%;
+        left: 50%;
+        animation-duration: 133s;
+        animation-delay: -2s;
+        transform-origin: -3vw -1vh;
+        box-shadow: 38vmin 0 5.287370040846785vmin currentColor;
+    }
+    .background span:nth-child(7) {
+        color: #bab9bc;
+        top: 73%;
+        left: 40%;
+        animation-duration: 234s;
+        animation-delay: -195s;
+        transform-origin: -6vw -7vh;
+        box-shadow: -38vmin 0 4.901551140850847vmin currentColor;
+    }
+    
