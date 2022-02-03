@@ -1,108 +1,139 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PABLO: The Game
+Test
 
-Welcome RaoulRV,
+![responsive](assets/css/images/responsive.PNG)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Features
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Header & Navigation**
 
-`python3 -m http.server`
+- At the top left of the page the navigation shows the name of the website : Local Gaming League this doubles as a "Home" button as it links to the top of the page. 
 
-A blue button should appear to click: _Make Public_,
+- The navigation menu is located at the top right of the page, it's made up of : Home, About, Tournaments and Sign Up. 
 
-Another blue button should appear to click: _Open Browser_.
+- All these navigation buttons link down to their specific section on the same page. This makes the website very accessible and it's clear for the user where to access different sections of the page.
+- The navigation uses a futuristic font which reminds people of old arcade video games.
+- The image is related to the purpose of the website, which is gaming.
+- The website name color is a purple gradient which contrasts well with the background but also compliments the image which is also predominantly purple.
+- This section starts setting the tone for the rest of the page, already showing the main color scheme: Purple, White and Black.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![headernavigation](assets/css/images/headernavi.PNG)
 
-A blue button should appear to click: _Make Public_,
+**About Section**
 
-Another blue button should appear to click: _Open Browser_.
+- The About section provides the user with an introduction to the Local Gaming League.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The About section also contains a video which introduces the user to the atmosphere at one of the events , this is done in order for the user to decide if he would like to participate.
 
-To log into the Heroku toolbelt CLI:
+- This section provides valuable information about which types of games you can sign up for, where the tournaments are located and if there are any more supported games in the future.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![about](assets/css/images/aboutsection.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**Tournaments Section**
 
-------
+- The Tournaments section is intended to provide more specific information about the 2 video games Local Gaming League supports.
 
-## Release History
+- It is split into 2 subsections, Dota 2 and Counter Strike : GO. This is done so the user can more clearly distinguish between the two and read about the games.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- In both subsections there is a list of specific information about the tournaments. This information consists of : Date, Prizepool, Location and where to sign up.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- In the location part there is an external link to the specific location on the map, this opens a new tab with directions. There is also a back-up link to the sign up section below in case the user doesn't know where to sign up.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The Tournaments section allows the user to learn concrete information about tournament details.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![tournaments](assets/css/images/tournaments.PNG)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+**Sign Up Section**
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- The sign up section contains a small description of the section and how to use it. This is incase the user is confused about how to sign up to our events.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- The main part of the section is a horizontal registration form with 8 elements: First Name, Last Name, Game, Email Address, Phone Number, Introduction, Address and a tickbox.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- The Game field has a drop-down where the user can select which game tournament they would like to sign up for.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- The form has purple accents to fit with the rest of the websites color scheme.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The tickbox is intended to inform Local Gaming League if the user wishes to bring their own computer to the events.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The form is important because its the main way for the user to sign up for Local Gaming League events.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![signup](assets/css/images/signup.PNG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Footer Section**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- In this section the user is presented with social media links in form of icons, this is important for the user to stay in touch with Local Gaming League.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- The section also has a Home button which links to the top of the page. This is essential for the user to easily return to the top of the page without having to scroll.
 
-------
+- The footer section is valuable to because it gives the user opportunities to stay updated about Local Gaming League.
 
-## FAQ about the uptime script
+![footer](assets/css/images/footer.PNG)
 
-**Why have you added this script?**
+# Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+- I've tested the website in the most popular web browsers and I can confirm it works: Chrome, Mozilla, Safari, Brave
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- I've also confirmed the project is responsive on all screen sizes, I did this using the developer tools in Chrome.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- I've confirmed the video works and only plays when the user wants to play it, it is also fully responsive.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- I've tested all the buttons and navigation and they all work as intended.
 
-**So….?**
+- I've confirmed the test is well contrasted and easy to understand.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- I've confirmed the form is functional and the dropdown Game field works properly.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Validator Testing**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- HTML - I tested the code through the official W3C validator and no errors were returned as per screenshot below;
 
-**Anything more?**
+![html](assets/css/images/htmlcheck.PNG)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- CSS - I tested the code through the official Jigsaw validator and no errors were returned as per screenshot below;
 
----
+![css](assets/css/images/csscheck.PNG)
 
-Happy coding!
+- Accessibility - I tested the web page through the lighthouse tool in devtools and I can confirm the colors and fonts are all easy to read and accessible.
+
+![accessibility](assets/css/images/access.PNG)
+
+**Bugs**
+
+- There were two warnings in the w3c validator. However the warnings only stated that a specific section needs a Header. In my design I did not plan to add a header to those sections therefore I couldn't address the issue.
+
+# Deployment
+
+The web site was deployed to GitHub pages with everything going smoothly the first attempt:
+
+- In my GitHub repository, navigated to the settings tab
+
+- On the left hand side menu look for the Pages section and click on it
+
+- From the source drop-down menu, select Main Branch and click save
+
+- After a few seconds the page provided a link to my hosted website
+
+Local Gaming League link can be found here [Local Gaming League](https://raoulrv.github.io/local-gaming-tournament/index.html)
+
+# Credits
+
+**Content**
+
+- The code to make the sign-up form was seen and adapted from this  [youtube video](https://www.youtube.com/watch?v=p9qBEq-YRSc)
+
+- Part of the code for the footer was also inspired by this [youtube video](https://www.youtube.com/watch?v=2-5LpaN2LF8)
+
+- The color gradient code for the main logo was taken from [this website](https://cssgradient.io/blog/css-gradient-text/)
+
+**Media**
+
+- The imagine in the header was taken from [Pexels](https://www.pexels.com/)
+
+- The video in the about section was taken from [youtube](https://www.youtube.com/)
+
+- The videogame logos were taken from [cleanpng](https://www.cleanpng.com/) Copyright to Valve Corp.
+
