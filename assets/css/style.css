@@ -248,7 +248,7 @@ background-image: url('../images/dog1.png');
 
      }
 
-     #title h3{
+     #title h2{
          font-size: 15px;
          color: white;
          text-align: center;
@@ -284,7 +284,7 @@ background-image: url('../images/dog1.png');
        /*media querys*/
 
        @media (max-width: 365px){
-        #title h3{
+        #title h2{
             font-size: 10px;
             color: white;
             text-align: left;
