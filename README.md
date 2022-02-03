@@ -1,109 +1,137 @@
 # PABLO: The Game
-Test
+PABLO is a retro-style "runner" game where the objective is to get as far as possible while dodging incoming obstacles and obtaining the most points.
+The game's main character is Pablo the dog. You'll be controlling Pablo and keeping him out of trouble by moving left or right and dodging obstacles. 
 
-![responsive](assets/css/images/responsive.PNG)
+The homepage contains full gameplay instructions so its easy to start playing immediately.
+Pablo is playable on both mobile and PC as it has full touch controls AND keyboard controls.
+
+
+The game is meant to provide entertainment value for users who have a bit of downtime and want to unwind by playing a quick game. Pablo harks back to simpler times as as you can see from the pixelated graphics and the retro arcade text font. 
+
+This app's target audience will be both children and adults of all ages as the game is simple and easy to understand but at the same time very entertaining.
+
+![access](assets/images/access.PNG)
 
 
 # Features
 
 
-**Header & Navigation**
+**Header / Title**
 
-- At the top left of the page the navigation shows the name of the website : Local Gaming League this doubles as a "Home" button as it links to the top of the page. 
+- At the top of the home page the header shows the name of the website / game : PABLO .
+- The name is very clear and easy to read as it has a good size and contrasted font color.
 
-- The navigation menu is located at the top right of the page, it's made up of : Home, About, Tournaments and Sign Up. 
+![pabloheader](assets/images/pabloheader.png)
 
-- All these navigation buttons link down to their specific section on the same page. This makes the website very accessible and it's clear for the user where to access different sections of the page.
-- The navigation uses a futuristic font which reminds people of old arcade video games.
-- The image is related to the purpose of the website, which is gaming.
-- The website name color is a purple gradient which contrasts well with the background but also compliments the image which is also predominantly purple.
-- This section starts setting the tone for the rest of the page, already showing the main color scheme: Purple, White and Black.
+**Game Description**
 
-![headernavigation](assets/css/images/headernavi.PNG)
+- At the middle of the game area there is a "short but sweet" introduction to the game, this tells you the aim of the game in a way that doesn't break immersion but doesn't reveal too much.
 
-**About Section**
+- This section is also very clear and easy to read as it has a good size color is in contrast with the black background.
 
-- The About section provides the user with an introduction to the Local Gaming League.
 
-- The About section also contains a video which introduces the user to the atmosphere at one of the events , this is done in order for the user to decide if he would like to participate.
+![pablodescript](assets/images/pablodescript.png)
 
-- This section provides valuable information about which types of games you can sign up for, where the tournaments are located and if there are any more supported games in the future.
+**Start Game & Controls**
 
-![about](assets/css/images/aboutsection.PNG)
+- The controls are clearly laid out, in smaller font size this time to suit most screen sizes. They provide the user with simple instructions on how to actually play the game. This is the first time the user sees how to interact with the app and that it works on both PC and touchscreen devices.
 
-**Tournaments Section**
+- The "Start Game" button initializes the game. It is a much bigger font size and its clearly visible due to the colorful animation around the font. 
 
-- The Tournaments section is intended to provide more specific information about the 2 video games Local Gaming League supports.
+ - This animation serves to point the user into the direction of the button and makes it obvious he needs to press it in order to start playing the game. The button is also animated with an underline when hovering over it.
 
-- It is split into 2 subsections, Dota 2 and Counter Strike : GO. This is done so the user can more clearly distinguish between the two and read about the games.
+![pabloplaygame](assets/images/pabloplaygame.png)
 
-- In both subsections there is a list of specific information about the tournaments. This information consists of : Date, Prizepool, Location and where to sign up.
+**Socials**
 
-- In the location part there is an external link to the specific location on the map, this opens a new tab with directions. There is also a back-up link to the sign up section below in case the user doesn't know where to sign up.
+- At the bottom of the game area there is a socials section which contains icons with links to most popular social media websites.
 
-- The Tournaments section allows the user to learn concrete information about tournament details.
+- The links open in a new tab and the icons are also animated when hovering over them.
 
-![tournaments](assets/css/images/tournaments.PNG)
+![pablosocials](assets/images/pablosocials.png)
 
-**Sign Up Section**
+**The Game**
 
-- The sign up section contains a small description of the section and how to use it. This is incase the user is confused about how to sign up to our events.
+- The game features Pablo the dog, situated in the bottom of the game area by default. He has a fully animated walk while the game is running.
 
-- The main part of the section is a horizontal registration form with 8 elements: First Name, Last Name, Game, Email Address, Phone Number, Introduction, Address and a tickbox.
+- Pablo is able to move left or right using the keyboard (left arrow key and right arrow key) or by clicking in the direction you want to move on a touchscreen device.
 
-- The Game field has a drop-down where the user can select which game tournament they would like to sign up for.
+- The aim of the game is to dodge the incoming obstacles.
 
-- The form has purple accents to fit with the rest of the websites color scheme.
+- These obstacles will come down randomly in one of three lanes; left, middle or right.
 
-- The tickbox is intended to inform Local Gaming League if the user wishes to bring their own computer to the events.
+- The speed at which they come down is constant and linear in order to make the game fair.
 
-- The form is important because its the main way for the user to sign up for Local Gaming League events.
+- Pablo has a "Score" feature, located in the top left of the game area. This allows you to see your score in real time and at the end of each run. This promotes competition and replay-ability as the user will want to beat their previous high score.
 
-![signup](assets/css/images/signup.PNG)
+- Pablo will gain 1 score point per obstacle he dodges and this is updated in real time.
 
-**Footer Section**
+- Once Pablo has hit an obstacle the game ends.
 
-- In this section the user is presented with social media links in form of icons, this is important for the user to stay in touch with Local Gaming League.
+- When the game has ended all animation stops including Pablo's walking animation.
 
-- The section also has a Home button which links to the top of the page. This is essential for the user to easily return to the top of the page without having to scroll.
+- In the "Game Over" screen the user is provided with visual feedback in the form of an animated "Game over! Try again?" text.
 
-- The footer section is valuable to because it gives the user opportunities to stay updated about Local Gaming League.
+- The user is also able to choose from 2 buttons provided when prompted to "Try Again?". These buttons are : "Yes" which restarts the game and sets the score back to 0, "No" which takes the user back to the homepage.
 
-![footer](assets/css/images/footer.PNG)
+
+
+![gamerunningscreenshot](assets/images/gamerunningscreenshot.PNG)
+
+![gameoverscreenshot](assets/images/gameoverscreenshot.PNG)
+
+# Features left to implement
+
+When I have more time I would like to implement the following:
+
+-   Bigger variety of obstacles (different cars, motorcycles, buildings) with different properties to them (some faster, some wider etc.)
+
+- A "power-up" that would come down instead of an obstacle and give the user an incentive to go get it. If the user gets the power-up he would receive a large amount of score points or a special effect.
+
+- A level system where each level gets harder as you go.
+
+- A highscore table to track the top 5 biggest scores overall.
 
 # Testing
-
-
 - I've tested the website in the most popular web browsers and I can confirm it works: Chrome, Mozilla, Safari, Brave
 
 - I've also confirmed the project is responsive on all screen sizes, I did this using the developer tools in Chrome.
 
-- I've confirmed the video works and only plays when the user wants to play it, it is also fully responsive.
+- I've tested the collision mechanics and confirmed they work correctly 100% of the time.
 
 - I've tested all the buttons and navigation and they all work as intended.
 
-- I've confirmed the test is well contrasted and easy to understand.
+- I've confirmed the app is well contrasted and easy to understand.
 
-- I've confirmed the form is functional and the dropdown Game field works properly.
+- I've confirmed the game is functional and have sent it to 10 people to test in order to find bugs.
 
 
 **Validator Testing**
 
-- HTML - I tested the code through the official W3C validator and no errors were returned as per screenshot below;
+- HTML - I tested the code through the official W3C validator and no errors were returned in both the index.html page and game.html as per screenshot below;
 
-![html](assets/css/images/htmlcheck.PNG)
+![indexhtmlchecker](assets/images/indexhtmlchecker.PNG)
+![gamehtmlchecker](assets/images/gamehtmlchecker.PNG)
 
 - CSS - I tested the code through the official Jigsaw validator and no errors were returned as per screenshot below;
 
-![css](assets/css/images/csscheck.PNG)
+![csschecker](assets/images/csschecker.PNG)
 
-- Accessibility - I tested the web page through the lighthouse tool in devtools and I can confirm the colors and fonts are all easy to read and accessible.
+- Accessibility - I tested the web page through the lighthouse tool in devtools and I can confirm the colors and fonts are all easy to read and accessible. I did this check for both index.html and game.html
 
-![accessibility](assets/css/images/access.PNG)
+![gamelighthousecheck](assets/images/gamelighthouse.PNG)
+![indexlighthouse](assets/images/indexlighthouse.PNG)
+
+- Javascript - I tested my javascript code through JShint and no major errors were returned as per screenshot below;
+
+![jshint](assets/images/jshint.PNG)
 
 **Bugs**
 
-- There were two warnings in the w3c validator. However the warnings only stated that a specific section needs a Header. In my design I did not plan to add a header to those sections therefore I couldn't address the issue.
+- There were a few warnings in JShint however when investigating I believe they are to do with the version of javascript which we are using.
+
+- When an obstacle is right next to Pablo in a different lane, the game will be over if you move Pablo into that lane and touch the obstacle. 
+Some users might consider this a bug, however this is a feature but it happens quite fast and it can confuse the user as to why he lost.
 
 # Deployment
 
@@ -117,23 +145,23 @@ The web site was deployed to GitHub pages with everything going smoothly the fir
 
 - After a few seconds the page provided a link to my hosted website
 
-Local Gaming League link can be found here [Local Gaming League](https://raoulrv.github.io/local-gaming-tournament/index.html)
+PABLO: the game link can be found here [PABLO](https://raoulrv.github.io/pablo-game/index.html)
 
 # Credits
 
 **Content**
 
-- The code to make the sign-up form was seen and adapted from this  [youtube video](https://www.youtube.com/watch?v=p9qBEq-YRSc)
+- The main idea for this project was inspired from this [youtube video](https://www.youtube.com/watch?v=Sz7ugHHlvX4)
 
-- Part of the code for the footer was also inspired by this [youtube video](https://www.youtube.com/watch?v=2-5LpaN2LF8)
+- The text animation was taken and modified by me from [this website](https://wweb.dev/resources/creative-hover-effects/)
 
-- The color gradient code for the main logo was taken from [this website](https://cssgradient.io/blog/css-gradient-text/)
+- The background animation for my homepage was taken from the same website as above
 
 **Media**
 
-- The imagine in the header was taken from [Pexels](https://www.pexels.com/)
+- The obstacle car image was taken from [Clipartmax](https://www.clipartmax.com/download/m2i8m2A0K9G6b1i8_medium-image-car-pixel-art-top-view/)
 
-- The video in the about section was taken from [youtube](https://www.youtube.com/)
+- The Pablo dog image was taken from [Pngkey](https://www.pngkey.com/detail/u2y3a9e6q8o0u2i1_my-sprite-sheet-of-a-dog-i-made/)
 
-- The videogame logos were taken from [cleanpng](https://www.cleanpng.com/) Copyright to Valve Corp.
+- The road background was taken from Google Images
 
