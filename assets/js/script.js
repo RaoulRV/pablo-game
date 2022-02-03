@@ -5,7 +5,7 @@ var game=document.getElementById("game");
 var restart=document.getElementById("gover");
 var pablo=document.getElementById("pablo");
 var not=document.getElementById("not");
-
+var left;
 
 document.addEventListener("keydown", event => {
     if(event.key==="ArrowLeft"){moveLeft();}
@@ -47,7 +47,7 @@ setInterval(function(){
         restart.style.display= "block";
         not.style.display="block";
         restart.onclick = function(){location.reload();
-            return false;}
+            return false;};
         }
 },50);
 

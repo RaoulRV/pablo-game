@@ -73,9 +73,9 @@ background-image: url('../images/dog1.png');
 
 }
 @keyframes drive{
-    0%{top: -140px};
-   
-    100%{bottom: 600px};
+    0% {top: -140px}
+
+    100% {bottom: 600px}
 }
 
 #score {
@@ -244,6 +244,7 @@ background-image: url('../images/dog1.png');
       }
       #title h1{
         color: rgb(233, 150, 229);
+    
 
      }
 
@@ -328,7 +329,7 @@ background-image: url('../images/dog1.png');
         backface-visibility: hidden;
         position: absolute;
         animation: move;
-        animation-duration: 16;
+        animation-duration: 16s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
     }
